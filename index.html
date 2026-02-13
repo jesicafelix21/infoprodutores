@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=sans-serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/hero/e7150c69-cd9a-4024-832f-cd4e7a7097e4.jpg" fetchpriority="high">
   <link rel="preload" as="image" href="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/cards/3a360885-f330-43be-b725-19fca6cc462e.png" fetchpriority="high">
   <link rel="preload" as="image" href="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/cards/bbeb0aaf-ea82-40bd-802d-5d1c199d1179.png" fetchpriority="high">
   <link rel="preload" as="image" href="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/cards/0a928c5e-6d8a-4107-9a4c-62395b194040.png" fetchpriority="high">
@@ -155,6 +156,18 @@ button { font-family: inherit; cursor: pointer; }
 </head>
 <body>
   <div class="container">
+
+    <div class="hero-canva" style="position: relative; width: 100%; margin-top: 0px; margin-bottom: 0px; min-height: 320px;">
+      <div class="hero-frame" style="position: relative; width: 100%; min-height: 320px; max-height: 420px; overflow: hidden; border-radius: 16px;">
+        <img src="https://mlwywdyrvneqxvycmaba.supabase.co/storage/v1/object/public/biolink-images/hero/e7150c69-cd9a-4024-832f-cd4e7a7097e4.jpg" alt="" class="hero-bg" loading="eager" fetchpriority="high" decoding="sync" style="object-fit: cover; object-position: 50% 50%; transform: translate(0px, 0px) scale(1); transform-origin: center center;">
+        <div class="hero-fade" style="background: linear-gradient(to bottom, transparent 65%, #000000 100%);"></div>
+      </div>
+      <div class="hero-overlay" style="background: #000000; opacity: 0; border-radius: 16px;"></div>
+      <div class="hero-content hero-center hero-normal" style="">
+        <h1 class="hero-title" style="font-family: sans-serif, sans-serif; font-weight: 700; font-style: normal; font-size: clamp(28px, 8vw, 36px); text-decoration: none; text-transform: none; color: #FFFFFF; line-height: 1.2; margin-bottom: 12px; white-space: pre-wrap; word-break: break-word; text-align: left; transform: translate(0px, 0px);">Seu Nome</h1>
+        <p class="hero-subtitle" style="font-family: sans-serif, sans-serif; font-weight: 400; font-style: normal; font-size: clamp(14px, 4vw, 16px); text-decoration: none; text-transform: none; color: #FFFFFF; opacity: 0.9; max-width: 320px; line-height: 1.6; white-space: pre-wrap; word-break: break-word; text-align: left; transform: translate(0px, 0px);">Sua bio aqui...</p>
+      </div>
+    </div>
 <div class="animate-block" data-block-type="CardSplit">
     <div class="card-split-wrapper" style="position: relative; width: 100%; margin: 12px auto; overflow: visible;">
       <div class="card-split card-imageLeft" style="background: linear-gradient(to right, #1A1A1A, #000000);  border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); min-height: 170px; position: relative;">
